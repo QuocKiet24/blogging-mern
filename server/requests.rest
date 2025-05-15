@@ -1,7 +1,10 @@
-POST http://localhost:3000/api/auth/signin 
-Content-Type: application/json
+# POST http://localhost:3000/api/auth/signin 
+# Content-Type: application/json
 
-{
-    "email": "kiet@gmail.com",
-    "password": "Lugayghe123456"
-}
+# {
+#     "email": "kiet@gmail.com",
+#     "password": "Lugayghe123456"
+# }
+
+
+GET http://localhost:3000/api/aws/get-upload-url
